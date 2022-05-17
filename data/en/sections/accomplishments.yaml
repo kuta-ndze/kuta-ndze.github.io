@@ -18,7 +18,8 @@ accomplishments:
     courseOverview:
       " The course provides expert support, helps develop extensive skills and expertise, and has a focus on what’s
       necessary to attain a competitive edge in the job market. It is extensive with 9 skill-building courses, and goes in-depth .
-      through the application of theory and practical applied learning techniques in ML, AI, Python, SQL, DS methodologies etc."
+      through the application of theory and practical applied learning techniques in ML, AI, Python, SQL, DS methodologies, IBM Watson
+      working with IBM db2 instances in IBM cloud and integrating all these with a Capstone project."
     certificateURL: "https://www.coursera.org/account/accomplishments/specialization/certificate/6XQ7GDNDV3SD"
 
   - name: Deep Learning Specialization
@@ -27,9 +28,9 @@ accomplishments:
       name: Deeplearning.AI
       url: https://www.deeplearning.ai/
     courseOverview:
-      "In this Specialization, I learn to  build and train neural network architectures such as Convolutional Neural Networks,
-      Recurrent Neural Networks, LSTMs, Transformers, and learn how to make them better with strategies such as Dropout,
-      BatchNorm, Xavier/He initialization, and more. Get ready to master theoretical concepts and their industry applications
+      "In this Specialization, I learn to  build and train NN architectures such as CNNs,
+      RNNs, LSTMs, Transformers, and how to make them better with strategies such as Dropout,
+      BatchNorm, Xavier/He initialization, and more. I have master theoretical concepts and their industry applications
       using Python and TensorFlow and tackle real-world cases such as speech recognition, music synthesis, chatbots,
       machine translation, natural language processing, and more."
     certificateURL: "https://www.coursera.org/account/accomplishments/certificate/PHV3H9KFTS8J"
