@@ -1,0 +1,24 @@
+# section information
+section:
+  name: Achievements
+  id: achievements
+  enable: true
+  weight: 8
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your achievements achievements
+achievements:
+  - title: AWS SAA
+    image: /images/sections/achievements/aws saa.png
+    summary: Received certification in Amazon Solution Architects from JanBask Online Training.
+  - title: MSc Applied Statistics
+    image: /images/sections/achievements/isu cert.png
+    summary: MSc in Applied Statistics from Illinois State University.
+  - title: Higher Teachers Diploma/ MSc
+    image: /images/sections/achievements/ens cert.png
+    summary: Received Masters of Science  in Computer Science from University of Yaoundé I.
+  - title: society of Actuary-SOA
+    image: /images/sections/achievements/exam P.png
+    summary: Tried and passed first actuarial exams i sat for.

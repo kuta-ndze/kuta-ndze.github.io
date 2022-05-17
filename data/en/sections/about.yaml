@@ -1,0 +1,63 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Data Scientist
+# your company information
+company:
+  name: Elevated Technologies.
+  url: "https://elevated-tech.com/"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/Celdrick_Data_Science_Resume.pdf"
+
+# a summary about you
+summary: "I am a certified Data Scientist with passion in making data shine. I love 
+building machine learning and deep learning models. I have a zest for AI and Cloud
+architectures while constantly learning and improving. My vision is to build
+an AI product that will identify malaria disease at low cost in Africa. I am open to working as
+a contractor and providing consultancy on Data science | Data analysis. Do check my [Data Science Porfolio](https://github.com/kuta-ndze)"
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+  - name: Github
+    icon: "fab fa-github"
+    url: "https://github.com/kuta-ndze/kuta-ndze"
+  - name: Email
+    icon: "fab fa-envelope"
+    url: "kutaceldrick880@gmail.com"
+  - name: LinkedIn
+    icon: "fab fa-linkedin"
+    url: "https://www.linkedin.com/in/kuta-n-celdrick-b808ba169/"
+  - name: Twitter
+    icon: "fab fa-twitter"
+    url: "https://twitter.com/kutandze"
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+  - name: Data Science
+    percentage: 85
+    color: blue
+  - name: Data Analysis
+    percentage: 90
+    color: yellow
+  - name: NLP
+    percentage: 85
+    color: blue
+  - name: ML/MLOps
+    percentage: 75
+    color: pink
+  - name: Team Work
+    percentage: 90
+    color: yellow
+  - name: AWS
+    percentage: 75
+    color: pink
