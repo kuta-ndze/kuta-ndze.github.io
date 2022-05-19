@@ -27,8 +27,7 @@ accomplishments:
     organization:
       name: Deeplearning.AI
       url: https://www.deeplearning.ai/
-    courseOverview:
-      "In this Specialization, I learn to  build and train NN architectures such as CNNs,
+    courseOverview: "I learned to build and train NN architectures such as CNNs,
       RNNs, LSTMs, Transformers, and how to make them better with strategies such as Dropout,
       BatchNorm, Xavier/He initialization, and more. I have master theoretical concepts and their industry applications
       using Python and TensorFlow and tackle real-world cases such as speech recognition, music synthesis, chatbots,
