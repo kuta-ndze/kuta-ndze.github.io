@@ -63,7 +63,7 @@ degrees:
           achieved: 3.80
           outOf: 4
         - name: Operating System
-          achieved: 3.5
+          achieved: 3.8
           outOf: 4
         - name: Software Engineering
           achieved: 3.75
@@ -81,7 +81,7 @@ degrees:
       url: "https://www.ubuea.cm/"
     grade: #(optional)
       scale: CGPA
-      achieved: 3.2
+      achieved: 3.56
       outOf: 4
     takenCourses: #(optional)
       # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
