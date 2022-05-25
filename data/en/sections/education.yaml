@@ -112,7 +112,7 @@ degrees:
       name: Cameroon College Of Arts, Science and Technology -  Bambili
       url: "https://ccastaa.org/about-us-2-2/about-us/"
     grade: #(optional)
-      scale: GPA
+      scale: Passed
       achieved: 4
       outOf: 4
     takenCourses: #(optional)
