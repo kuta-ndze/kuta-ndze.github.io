@@ -50,9 +50,7 @@ projects:
     timeline: "Jun 2021 - Present"
     repo: https://github.com/kuta-ndze/RetailPriceOptimization_TimeSeries.git
     #url: ""
-    summary:
-      Predicting future  sales of thousands of stores based on historical data using Facebook Prophet intuition, taking into
-      account seasonality effect, trends, holiday effect etc.
+    summary: Predictive analytics to forecast future sales based on historical data while taking into account seasonality effects, demand, holidays, promotions, and competition etc.
     tags: ["time series", "ml", "data science"]
 
   - name: Recommender Systems
@@ -60,7 +58,7 @@ projects:
     timeline: "Jan 2020 - Nov 2021"
     url: "https://www.example.com"
     summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-    tags: ["academic", "iot"]
+    tags: ["ml", "ds"]
 
   # - name: Nocode
   #   logo: /images/sections/projects/no-code.png
