@@ -15,9 +15,9 @@ buttons:
   - name: Data Science
     filter: "data science"
   - name: Machine Learning
-    filter: "machine learning"
+    filter: "ml"
   - name: Deep Learning
-    filter: "deep learning"
+    filter: "dl"
   - name: Data Analysis
     filter: "data analysis"
   - name: Dashboards
@@ -42,18 +42,18 @@ projects:
       We should be able to get a sense of the specific topic in each cluster, what the
       customers are complaining about based on specific patterns. The twitter corpus
       contains a lot of noise and we will try to minimize this and create sense out of the data.
-    tags: ["machine learning", "nlp", "data science"]
+    tags: ["ml", "nlp", "data science"]
 
   - name: Retail Price Optimization
     logo: /images/sections/projects/ts.png
     role: Contributor
     timeline: "Jun 2021 - Present"
-    repo: https://github.com/tensorflow/tensorflow
+    repo: https://github.com/kuta-ndze/RetailPriceOptimization_TimeSeries.git
     #url: ""
     summary:
       Predicting future daily sales of hundreds of thousands of stores based on historical data using Facebook Prophet intuition, taking into
       account seasonality effect, trends, holiday effect etc.
-    tags: ["time series", "machine learning", "data science", sales-department]
+    tags: ["time series", "ml", "data science"]
 
   - name: A sample academic paper
     role: Team Lead
