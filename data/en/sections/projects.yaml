@@ -50,8 +50,8 @@ projects:
     timeline: "Jun 2021 - Present"
     repo: https://github.com/tensorflow/tensorflow
     #url: ""
-    summary: An Open Source Machine Learning Framework for Everyone.
-    tags: ["time series", "machine learning", "data science"]
+    summary: Predicting future daily sales of hundreds of thousands of stores based on historical data using Facebook Prophet intuition.
+    tags: ["time series", "machine learning", "data science", sales-department]
 
   - name: A sample academic paper
     role: Team Lead
