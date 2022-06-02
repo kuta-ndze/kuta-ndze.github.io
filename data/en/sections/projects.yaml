@@ -51,7 +51,7 @@ projects:
     repo: https://github.com/kuta-ndze/RetailPriceOptimization_TimeSeries.git
     #url: ""
     summary:
-      Predicting future daily sales of hundreds of thousands of stores based on historical data using Facebook Prophet intuition, taking into
+      Predicting future  sales of hundreds of thousands of stores based on historical data using Facebook Prophet intuition, taking into
       account seasonality effect, trends, holiday effect etc.
     tags: ["time series", "ml", "data science"]
 
