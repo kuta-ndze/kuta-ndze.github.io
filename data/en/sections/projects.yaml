@@ -13,9 +13,9 @@ buttons:
   - name: All
     filter: "all"
   - name: Data Science
-    filter: "data Science"
+    filter: "data science"
   - name: Machine Learning
-    filter: "machine Learning"
+    filter: "machine learning"
   - name: Deep Learning
     filter: "deep learning"
   - name: Data Analysis
@@ -23,7 +23,7 @@ buttons:
   - name: Dashboards
     filter: "dashboards"
   - name: NLP
-    filter: "natural language processing"
+    filter: "nlp"
   - name: Time Series
     filter: "time series"
   - name: WebApp
@@ -31,14 +31,14 @@ buttons:
 
 # your projects
 projects:
-  - name: Kubernetes
-    logo: /images/sections/projects/kubernetes.png
+  - name: Topic Modeling
+    logo: /images/sections/projects/nlp.png
     role: Contributor
-    timeline: "March 2018 - Present"
-    repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+    timeline: "March 2021 - Present"
+    repo: https://github.com/kuta-ndze/TopicModeling_NLP.git # If your project is a public repo on GitHub, then provide this link. it will show star count.
     #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
     summary: Production-Grade Container Scheduling and Management.
-    tags: ["deep learning", "kubernetes", "cloud"]
+    tags: ["machine learning", "nlp", "data science"]
 
   - name: Tensorflow
     logo: /images/sections/projects/tensorflow.png
