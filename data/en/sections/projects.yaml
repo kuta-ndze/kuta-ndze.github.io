@@ -50,7 +50,9 @@ projects:
     timeline: "Jun 2021 - Present"
     repo: https://github.com/tensorflow/tensorflow
     #url: ""
-    summary: Predicting future daily sales of hundreds of thousands of stores based on historical data using Facebook Prophet intuition.
+    summary:
+      Predicting future daily sales of hundreds of thousands of stores based on historical data using Facebook Prophet intuition, taking into
+      account seasonality effect, trends, holiday effect etc.
     tags: ["time series", "machine learning", "data science", sales-department]
 
   - name: A sample academic paper
