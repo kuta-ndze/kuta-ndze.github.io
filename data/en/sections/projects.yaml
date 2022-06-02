@@ -44,14 +44,14 @@ projects:
       contains a lot of noise and we will try to minimize this and create sense out of the data.
     tags: ["machine learning", "nlp", "data science"]
 
-  - name: Tensorflow
-    logo: /images/sections/projects/tensorflow.png
-    role: Developer
-    timeline: "Jun 2018 - Present"
+  - name: Retail Price Optimization
+    logo: /images/sections/projects/ts.png
+    role: Contributor
+    timeline: "Jun 2021 - Present"
     repo: https://github.com/tensorflow/tensorflow
     #url: ""
     summary: An Open Source Machine Learning Framework for Everyone.
-    tags: ["professional", "machine-learning"]
+    tags: ["time series", "machine learning", "data science"]
 
   - name: A sample academic paper
     role: Team Lead
