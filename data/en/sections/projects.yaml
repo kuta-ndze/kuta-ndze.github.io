@@ -53,11 +53,14 @@ projects:
     summary: Predictive analytics to forecast future sales based on historical data while taking into account seasonality effects, demand, holidays, promotions, and competition etc.
     tags: ["time series", "ml", "data science"]
 
-  - name: Recommender Systems
+  - name: Recommendation System
+    logo: /images/sections/projects/rs.png
     role: Author
     timeline: "Jan 2020 - Nov 2021"
-    url: "https://www.example.com"
-    summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
+    repo: "https://github.com/kuta-ndze/CollaborativeFiltering.git"
+    summary:
+      Using memory-based collaborative filtering in python to be able to recommend and predict review/ratings for over 2MB records.The Centered cosine similarity which takes into account effect of empty ratings/reviews
+      is used to model this problem.
     tags: ["ml", "ds"]
 
   # - name: Nocode
