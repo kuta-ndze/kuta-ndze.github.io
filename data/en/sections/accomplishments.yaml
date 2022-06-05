@@ -67,3 +67,14 @@ accomplishments:
       Learn Geospatial Analysis, Data Analysis, and Data Visualization on public Tableau. I have worked on Multiple real-life projects during my course.
       Design and deliver a professional-quality, end-to-end business intelligence solution, armed only with Power BI and a handful of raw csv files.
     certificateURL: "https://www.udemy.com/certificate/UC-1e4fbc14-9ecb-461c-b444-a4d6d37eb339/"
+
+  - name: Analytics to Healthcare
+    timeline: "Jun 2022 - Jun 2022"
+    organization:
+      name: Udemy
+      url: https://www.udemy.com
+    courseOverview:
+      A journey from simple data to machines that can help us accurately predict outcomes and formulate actionable insights.This class takes us through that journey from data ... to information ... to predicting and changing future care,  in a simple and understandable format.   
+      The topics covered in this Advanced Analytics in Healthcare course are: What is Basic Analytics? What is Advanced Analytics? Descriptive Analytics? Diagnostic Analytics? Predictive Analytics? Prescriptive Analytics, The Challenges of Advanced Analytics
+    certificateURL: "https://www.udemy.com/certificate/UC-de971b99-6b42-409d-a058-aad8e90c86ce/"
+
