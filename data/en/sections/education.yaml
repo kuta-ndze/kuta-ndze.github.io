@@ -16,10 +16,10 @@ degrees:
     institution:
       name: Illinois State University
       url: "https://illinoisstate.edu/"
-    grade: #(optional)
-      scale: CGPA
-      achieved: 3.64
-      outOf: 4
+    # grade: #(optional)
+    #   scale: CGPA
+    #   achieved: 3.64
+    #   outOf: 4
     takenCourses: #(optional)
       # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
       showGrades: true
@@ -47,10 +47,10 @@ degrees:
     institution:
       name: University of Yaoundé I
       url: "https://ens.cm/new/"
-    grade: #(optional)
-      scale: CGPA
-      achieved: 3.7
-      outOf: 4
+    # grade: #(optional)
+    #   scale: CGPA
+    #   achieved: 3.7
+    #   outOf: 4
     takenCourses: #(optional)
       # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
       showGrades: true
@@ -79,10 +79,10 @@ degrees:
     institution:
       name: University of Buea
       url: "https://www.ubuea.cm/"
-    grade: #(optional)
-      scale: CGPA
-      achieved: 3.56
-      outOf: 4
+    # grade: #(optional)
+    #   scale: CGPA
+    #   achieved: 3.56
+    #   outOf: 4
     takenCourses: #(optional)
       # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
       showGrades: true
