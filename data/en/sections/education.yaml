@@ -60,10 +60,10 @@ degrees:
           achieved: 3.75
           outOf: 4
         - name: Network Security
-          achieved: 3.80
+          achieved: 4
           outOf: 4
         - name: Operating System
-          achieved: 3.8
+          achieved: 4
           outOf: 4
         - name: Software Engineering
           achieved: 3.75
