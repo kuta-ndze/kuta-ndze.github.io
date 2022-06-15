@@ -21,7 +21,7 @@ buttons:
   - name: Data Analysis
     filter: "data analysis"
   - name: Dashboards
-    filter: "dashboards"
+    filter: "dashboard"
   - name: NLP
     filter: "nlp"
   - name: Time Series
@@ -63,6 +63,13 @@ projects:
       is used to model this problem.
     tags: ["ml", "ds"]
 
+  - name: BI solution on Sales data
+    logo: /images/sections/projects/dd.png
+    role: Author
+    timeline: "Jan 2020 - Nov 2021"
+    repo: "https://github.com/kuta-ndze/KPIDashboarding.git"
+    summary: Design an end-to-end business intelligence solution with PowerBi to be able to track KPIs(Sales, Revenue, Profit, Returns)compare regional performance, analyze product-level trends and forecasts, and identify high-value customers.
+    tags: ["data analysis", "dashboard"]
   # - name: Nocode
   #   logo: /images/sections/projects/no-code.png
   #   role: Nothing
