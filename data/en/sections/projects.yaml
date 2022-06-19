@@ -44,13 +44,13 @@ projects:
       contains a lot of noise and we will try to minimize this and create sense out of the data.
     tags: ["ml", "nlp", "data science"]
 
-  - name: Retail Price Optimization
+  - name: Sales Forecasting
     logo: /images/sections/projects/ts.png
     role: Contributor
     timeline: "Jun 2021 - Present"
     repo: https://github.com/kuta-ndze/RetailPriceOptimization_TimeSeries.git
     #url: ""
-    summary: Predictive analytics to forecast future sales based on historical data while taking into account seasonality effects, demand, holidays, promotions, and competition etc.
+    summary: Predictive analytics to forecast future daily, weakly and yearly sales with Facebook Prophet based on historical sales data while taking into account seasonality effects, demand, holidays, promotions, and competition etc.
     tags: ["time series", "ml", "data science"]
 
   - name: Recommendation System
@@ -63,7 +63,7 @@ projects:
       is used to model this problem.
     tags: ["ml", "ds"]
 
-  - name: BI solution on Sales data
+  - name: BI solution, Sales data
     logo: /images/sections/projects/dd.png
     role: Author
     timeline: "Jan 2020 - Nov 2021"
