@@ -46,7 +46,7 @@ projects:
 
   - name: Sales Forecasting
     logo: /images/sections/projects/ts.png
-    role: Contributor
+    role: Author
     timeline: "Jun 2021 - Present"
     repo: https://github.com/kuta-ndze/RetailPriceOptimization_TimeSeries.git
     #url: ""
