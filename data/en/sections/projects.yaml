@@ -48,7 +48,7 @@ projects:
     logo: /images/sections/projects/ts.png
     role: Author
     timeline: "Jun 2021 - Present"
-    repo: https://github.com/kuta-ndze/SalesPriceForecasting.git
+    repo: https://github.com/kuta-ndze/TimeSeriesSalesForecasting.git
     #url: ""
     summary: Predictive analytics to forecast future daily, weakly and yearly sales with Facebook Prophet based on historical sales data while taking into account seasonality effects, demand, holidays, promotions, and competition etc.
     tags: ["time series", "ml", "data science"]
