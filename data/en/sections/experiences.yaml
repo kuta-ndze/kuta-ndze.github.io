@@ -20,7 +20,7 @@ experiences:
         Providing solutions in managed IT, cloud computing, flat rate IT support, manage network security..
     positions:
       - designation: Data Scientist
-        start: Mar 2020
+        start: Jun 2021
         # don't provide end date if you are currently working there. It will be replaced by "Present"
         # end: Dec 2020
         # give some points about what was your responsibilities at the company.
@@ -48,8 +48,8 @@ experiences:
         and increase operational visibility in line with their unique possibilities.
     positions:
       - designation: Data Scientist
-        start: April 2019
-        end: Feb 2020
+        start: Feb 2020
+        end: May 2021
         responsibilities:
           - Write lots of custom python functions for predictive maintenance modelling.
           - Running deep learning models and data visualizations on client's dataset.
@@ -64,10 +64,10 @@ experiences:
         creative , human resources, finance and accounting, real estate.
     positions:
       - designation: Data Scientist
-        start: Jul 2018
-        end: Mar 2019
+        start: Mar 2019
+        end: Jan 2020
         responsibilities:
-          - Web scraping unstructured data.
+          - Web Scraping unstructured data.
           - Sentiment analysis.
           - Model deployment.
 
