@@ -61,7 +61,7 @@ projects:
     summary:
       Using memory-based collaborative filtering in python to be able to recommend and predict review/ratings for over 2MB records.The Centered cosine similarity which takes into account effect of empty ratings/reviews
       is used to model this problem.
-    tags: ["ml", "ds"]
+    tags: ["ml", "data science"]
 
   - name: BI solution, Sales data
     logo: /images/sections/projects/dd.png
@@ -70,14 +70,15 @@ projects:
     repo: "https://github.com/kuta-ndze/KPIDashboarding.git"
     summary: Design an end-to-end business intelligence solution with PowerBi to track KPIs(Sales, Revenue, Profit, Returns)compare regional performance, analyze product-level trends and forecasts, and identify high-value customers.
     tags: ["data analysis", "dashboard"]
-  # - name: Nocode
-  #   logo: /images/sections/projects/no-code.png
-  #   role: Nothing
-  #   timeline: "Oct 2019 - Dec 2019"
-  #   repo: https://github.com/kelseyhightower/nocode
-  #   #url: ""
-  #   summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-  #   tags: ["hobby", "fun"]
+
+  - name: Price Optimization
+    logo: /images/sections/projects/po.png
+    role: Contributor
+    timeline: "Mar 2021 - Feb 2022"
+    repo: https://github.com/kuta-ndze/PriceOptimization.git
+    #url: ""
+    summary: Provided with Restaurant Cafe data , leverage price elasticity with historical Cafe sales data to measure customers' responsiveness towards quantity demanded or supply due to price changes and find the optimal price to set for their items for maximum profit i.e striking a balance in low or high price for optimal profit.
+    tags: ["data science", "ml", "Retail"]
 
   # - name: Toha
   #   logo: /images/sections/projects/toha.png
