@@ -1,0 +1,137 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+  - name: MSc in Applied Statistics
+    icon: fa-microscope
+    timeframe: 2018-2020
+    institution:
+      name: Illinois State University
+      url: "https://illinoisstate.edu/"
+    # grade: #(optional)
+    #   scale: CGPA
+    #   achieved: 3.64
+    #   outOf: 4
+    takenCourses: #(optional)
+      # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+      showGrades: true
+      collapseAfter: 3
+      courses:
+        - name: Generalized Linear Models and Predictive Modeling
+          achieved: 4
+          outOf: 4
+        - name: Statistical Learning and Data Mining
+          achieved: 4
+          outOf: 4
+        - name: Statistics and Data Analysis
+          achieved: 4
+          outOf: 4
+        - name: Design of Experiments
+          achieved: 4
+          outOf: 4
+    publications: #(optional)
+      - title: Regression Analysis of Covid-19.
+        url: "https://math.illinoisstate.edu/actuary/casestudieslibrary.shtml"
+
+  - name: MSc. in Computer Science
+    icon: fa-graduation-cap
+    timeframe: 2014-2016
+    institution:
+      name: University of Yaoundé I
+      url: "https://ens.cm/new/"
+    # grade: #(optional)
+    #   scale: CGPA
+    #   achieved: 3.7
+    #   outOf: 4
+    takenCourses: #(optional)
+      # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+      showGrades: true
+      collapseAfter: 3
+      courses:
+        - name: Data Structures and Algorithm
+          achieved: 3.75
+          outOf: 4
+        - name: Network Security
+          achieved: 4
+          outOf: 4
+        - name: Operating System
+          achieved: 4
+          outOf: 4
+        - name: Software Engineering
+          achieved: 3.75
+          outOf: 4
+    extracurricularActivities: #(optional)
+      - Volunteering in teaching Computer science in high school in local community.
+      - Training of martial arts teens.
+      - Soccer tournament participant.
+
+  - name: B.Sc. in Mathematics & Computer Science
+    icon: fa-graduation-cap
+    timeframe: 2007-2010
+    institution:
+      name: University of Buea
+      url: "https://www.ubuea.cm/"
+    # grade: #(optional)
+    #   scale: CGPA
+    #   achieved: 3.56
+    #   outOf: 4
+    takenCourses: #(optional)
+      # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+      showGrades: true
+      collapseAfter: 3
+      courses:
+        - name: Data Structures and Algorithm
+          achieved: B
+          outOf: A
+        - name: Abstract Algebra
+          achieved: A
+          outOf: A
+        - name: Calculus II
+          achieved: A
+          outOf: A
+        - name: Programming in C
+          achieved: B
+          outOf: A
+    extracurricularActivities: #(optional)
+      - Video Making and Editing.
+      - Organize and manage budget for departmental conferences for visiting speakers.
+      - Love playing soccer.
+
+  - name: Advance Level Certificate
+    icon: fa-university
+    timeframe: 2010-2012
+    institution:
+      name: Cameroon College Of Arts, Science and Technology -  Bambili
+      url: "https://ccastaa.org/about-us-2-2/about-us/"
+    # grade: #(optional)
+    #   scale: Grades
+    #   achieved: A, A, B, B
+    #   outOf: 4As
+    takenCourses: #(optional)
+      # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+      showGrades: false
+      collapseAfter: 3
+      courses:
+        - name: Mathematics
+          achieved: A
+          outOf: A
+        - name: Physics
+          achieved: B
+          outOf: A
+        - name: Further Mathematics
+          achieved: A
+          outOf: A
+        - name: Chemistry
+          achieved: B
+          outOf: A
+    extracurricularActivities: #(optional)
+      - Soccer player.
+      - President of Maths  club.
