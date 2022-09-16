@@ -80,10 +80,10 @@ projects:
     summary: Provided with Restaurant Cafe data , leverage price elasticity with historical Cafe sales data to measure customers' responsiveness towards quantity demanded or supply due to price changes and find the optimal price to set for their items for maximum profit i.e striking a balance in low or high price for optimal profit.
     tags: ["data science", "ml", "Retail"]
 
-  # - name: Toha
-  #   logo: /images/sections/projects/toha.png
-  #   role: Owner
-  #   timeline: "Jun 2019 - Present"
-  #   repo: https://github.com/hossainemruz/toha
-  #   summary: A Hugo theme for personal portfolio.
-  #   tags: ["hobby", "hugo", "theme", "professional"]
+  - name: Plotly Dash, SpaceX Launch
+    logo: /images/sections/projects/dd.png
+    role: Owner
+    timeline: "Oct 2021 - Nov 2021"
+    repo: https://spacex-dash-app.herokuapp.com/
+    summary: An interactive visual analytics for capstone project in real time for spaceX launch data. I have hosted this dash application on Heroku app platform. With this app you can get a visual idea on which site has largest successful launches, sites with highest/lowest launch success rate and with payload ranges. Which F9 Booster?
+    tags: ["data analysis", "dashboard"]
