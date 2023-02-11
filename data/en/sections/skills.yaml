@@ -58,8 +58,13 @@ skills:
     in deploying and testing models on web and postman."
     #url: "https://kubernetes.io/"
 
+  - name: MS Excel
+    logo: "/images/sections/skills/excel.png"
+    summary: "Capable of working with large datasets and extract meaningful insights from them. Expertise in Excel for data science will add value to any data analysis or visualization project."
+    #url: "https://kubernetes.io/"
+
   - name: Other Tools
     logo: "/images/sections/skills/othertools.png"
-    summary: "Worked with handful of programming languages in my working and learning curve ranging from Python, R, Scala,
-    html5, Git, Linux, Docker, JavaScript, CSS, Github, Hadoop, Hive, Java, C, C++, Flask etc."
+    summary: "Worked with handful of programming languages in my working and learning curve ranging from Python, R, Scala, ELK Stack,
+    html5, Git, Linux, Docker, JavaScript, CSS, Github, Hadoop, Hive, Java, C, C++, Flask, Azure Devops etc."
     #url: "https://kubernetes.io/"

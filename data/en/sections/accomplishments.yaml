@@ -75,3 +75,19 @@ accomplishments:
       url: https://www.udemy.com
     courseOverview: A journey from simple data to machines that can help us accurately predict outcomes and formulate actionable insights.This class takes us through that journey from data ... to information ... to predicting and changing future care,  in a simple and understandable format.
     certificateURL: "https://www.udemy.com/certificate/UC-de971b99-6b42-409d-a058-aad8e90c86ce/"
+
+  - name: ELK Stack
+    timeline: "Nov 2022 - Dec 2022"
+    organization:
+      name: LinkedIn
+      url: https://www.linkedin.com
+    courseOverview: The ELK Stack is a powerful set of tools for log analysis and data visualization, consisting of Elasticsearch, Logstash, and Kibana. I have acquired expertise in the ELK Stack through hands-on experience and training, and I am capable of leveraging these tools for various data analysis, data indexing  and visualization tasks.
+    certificateURL: "https://www.linkedin.com/learning/certificates/6bd91c95baf84b75f462b52962b44c697066fe1a9a64351359ec15a02b3302a4"
+
+  - name: Excel for Data Science
+    timeline: "Dec 2022 - Jan 2023"
+    organization:
+      name: LinkedIn
+      url: https://www.linkedin.com
+    courseOverview:  Advanced Excel skills through Projects that enable maximizes various data analysis, visualization, machine learning, cleaning and preprocessing. These skills have allowed me to work with large datasets and extract meaningful insights from them.
+    certificateURL: "https://www.linkedin.com/learning/certificates/bc7f3aee07890113a4a5e2d48bb56595bce54f743643ff8c1472e31776183304"

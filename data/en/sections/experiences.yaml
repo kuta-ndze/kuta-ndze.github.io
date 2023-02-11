@@ -11,6 +11,25 @@ section:
 # Your experiences
 experiences:
   - company:
+      name: CitiusTech Healthcare Technology Private Limited.
+      url: "https://www.citiustech.com/"
+      location: Princeton
+      overview:
+        CitiusTech is a specialized provider of healthcare technology and business process services to healthcare technology companies, healthcare providers,
+        managed care organizations, health plans and disease management companies.
+    positions:
+      - designation: Data Scientist
+        start: Oct 2022
+        # end: Jan 2020
+        responsibilities:
+          - Data Extraction Google Bigquery, third party APIs PubMed, WOS, SNOMED.
+          - NLU and data processing need of client, Creating benchmark datasets for "Find An Expert" solution.
+          - Creating Biosentvec embeddings and data indexing into Elastic Search. Calculating Similarity scores with index data in ES.
+          - Created new covariates or markers per client requirements.
+          - Developed ML models Learning to Rank methods with pointwise, pairwise and Listwise over 31MB records trained in python.
+          
+
+  - company:
       name: Elevated Technologies.
       url: "https://elevated-tech.com/"
       location: Houston
@@ -21,6 +40,7 @@ experiences:
     positions:
       - designation: Data Scientist
         start: Jun 2021
+        end: Sept 2022
         # don't provide end date if you are currently working there. It will be replaced by "Present"
         # end: Dec 2020
         # give some points about what was your responsibilities at the company.
@@ -54,22 +74,6 @@ experiences:
           - Write lots of custom python functions for predictive maintenance modelling.
           - Running deep learning models and data visualizations on client's dataset.
           - Working with unstructured data to detect and localize flaws in steel.
-
-  - company:
-      name: Hirewell.
-      url: "https://hirewell.com/"
-      location: Chicago
-      overview:
-        Hirewell is a Chicago based recruiting and staffing firm with specialized teams dedicated to technology, digital marketing,
-        creative , human resources, finance and accounting, real estate.
-    positions:
-      - designation: Data Scientist
-        start: Mar 2019
-        end: Jan 2020
-        responsibilities:
-          - Web Scraping unstructured data.
-          - Sentiment analysis.
-          - Model deployment.
 
   - company:
       name: Panus Software.
