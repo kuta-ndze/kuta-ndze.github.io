@@ -58,7 +58,7 @@ skills:
     in deploying and testing models on web and postman."
     #url: "https://kubernetes.io/"
 
-  - name: MS Excel
+  - name: Advanced MS Excel
     logo: "/images/sections/skills/excel.png"
     summary: "Capable of working with large datasets and extract meaningful insights from them. Expertise in Excel for data science will add value to any data analysis or visualization project."
     #url: "https://kubernetes.io/"
