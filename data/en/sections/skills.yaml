@@ -1,0 +1,70 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+  - name: Data Science
+    logo: "/images/sections/skills/datascience.png"
+    summary: "Make your data shine with predictive and quantitative models and machine learning techniques, for example
+    predicting customer attrition, forecasting sales, targeting the right customers etc."
+    #url: "https://kubernetes.io/"
+
+  - name: Data Analysis
+    logo: "/images/sections/skills/dataanalysis.png"
+    summary: "I am specialized in analyzing data, trends and recommendations clearly presented in reports or BI tools. Exploratory
+    data analysis, Geospatial analysis, and Time-series analysis"
+    #url: "https://kubernetes.io/"
+
+  - name: Machine Learning
+    logo: "/images/sections/skills/ml.png"
+    summary: "Work with multiple machine learning algorithms ; Regression,  Classification and Reinforcement algorithms.Detecting
+    and localizing flaws in steel manufacturing, NLP, CNN, RNN, CV audio, anomaly detection amongst others."
+    #url: "https://kubernetes.io/"
+
+  - name: Deep Learning
+    logo: "/images/sections/skills/dl.png"
+    summary: "DL framework with Tensorflow working on models not restricted to Deep NN, CNN,Transfer Learning, ResNets, ResUnets, RNN, LSTM,
+    GRU, Seq2Seq, GAN, concepts of bottleneck down sampling. Parameter tuning, model optimization, regularization and batch processing."
+    #url: "https://kubernetes.io/"
+  
+  - name: SQL
+    logo: "/images/sections/skills/sql.png"
+    summary: "Certified in SQL for data science University of California, Davis. Data Wrangling, SQL analysis, AB testing, Sql optimization with
+    Apache Spark, Delta lake, Azure Data bricks, create data analysis datasets and conduct feature engineering with 
+    unstructured data."
+    #url: "https://kubernetes.io/"
+
+  - name: Dashboards
+    logo: "/images/sections/skills/dashboard.png"
+    summary: "Dashboards showing most recent results in an interactive way. By clicking and filtering to examine trends and patterns.
+    I have used BI tools to develop  dashboards to visualize KPIs, create new calculated columns in Power BI, Tableau, AWS QuickSight, R shiny etc."
+    #url: "https://kubernetes.io/"
+
+  - name: Cloud Computing
+    logo: "/images/sections/skills/cloud.png"
+    summary: "ML framework with AWS SageMaker and Model deployment. Familiar with AWS Devops and  Solutions Architect frameworks."
+
+  - name: Webapp/Cloud
+    logo: "/images/sections/skills/webapp.png"
+    summary: "Capable of deploying, managing application on heroku, google cloud, AWS lambda. Experienced in writing Flask application
+    in deploying and testing models on web and postman."
+    #url: "https://kubernetes.io/"
+
+  - name: Advanced MS Excel
+    logo: "/images/sections/skills/excel.png"
+    summary: "Capable of working with large datasets and extract meaningful insights from them. Expertise in Excel for data science will add value to any data analysis or visualization project."
+    #url: "https://kubernetes.io/"
+
+  - name: Other Tools
+    logo: "/images/sections/skills/othertools.png"
+    summary: "Worked with handful of programming languages in my working and learning curve ranging from Python, R, Scala, ELK Stack,
+    html5, Git, Linux, Docker, JavaScript, CSS, Github, Hadoop, Hive, Java, C, C++, Flask, Azure Devops etc."
+    #url: "https://kubernetes.io/"

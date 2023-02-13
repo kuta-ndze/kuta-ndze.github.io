@@ -1,0 +1,89 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+  - name: All
+    filter: "all"
+  - name: Data Science
+    filter: "data science"
+  - name: Machine Learning
+    filter: "ml"
+  - name: Deep Learning
+    filter: "dl"
+  - name: Data Analysis
+    filter: "data analysis"
+  - name: Dashboards
+    filter: "dashboard"
+  - name: NLP
+    filter: "nlp"
+  - name: Time Series
+    filter: "time series"
+  - name: WebApp
+    filter: "webapp"
+
+# your projects
+projects:
+  - name: Topic Modeling
+    logo: /images/sections/projects/nlp.png
+    role: Contributor
+    timeline: "March 2021 - Present"
+    repo: https://github.com/kuta-ndze/TopicModeling_NLP.git # If your project is a public repo on GitHub, then provide this link. it will show star count.
+    #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+    summary:
+      Cluster customers reviews on twitter corpus based on recurring patterns.
+      We should be able to get a sense of the specific topic in each cluster, what the
+      customers are complaining about based on specific patterns. The twitter corpus
+      contains a lot of noise and we will try to minimize this and create sense out of the data.
+    tags: ["ml", "nlp", "data science"]
+
+  - name: Sales Forecasting
+    logo: /images/sections/projects/ts.png
+    role: Author
+    timeline: "Jun 2021 - Present"
+    repo: https://github.com/kuta-ndze/TimeSeriesSalesForecasting.git
+    #url: ""
+    summary: Time Series analysis to forecast future daily, weakly and yearly sales with Facebook Prophet based on historical sales data while taking into account seasonality effects, demand, holidays, promotions, and competition etc.
+    tags: ["time series", "ml", "data science"]
+
+  - name: Recommendation System
+    logo: /images/sections/projects/rs.png
+    role: Author
+    timeline: "Jan 2020 - Nov 2021"
+    repo: "https://github.com/kuta-ndze/CollaborativeFiltering.git"
+    summary:
+      Using memory-based collaborative filtering in python to be able to recommend and predict review/ratings for over 2MB records.The Centered cosine similarity which takes into account effect of empty ratings/reviews
+      is used to model this problem.
+    tags: ["ml", "data science"]
+
+  - name: BI solution, Sales data
+    logo: /images/sections/projects/dd.png
+    role: Author
+    timeline: "Jan 2020 - Nov 2021"
+    repo: "https://github.com/kuta-ndze/KPIDashboarding.git"
+    summary: Design an end-to-end business intelligence solution with PowerBi to track KPIs(Sales, Revenue, Profit, Returns)compare regional performance, analyze product-level trends and forecasts, and identify high-value customers.
+    tags: ["data analysis", "dashboard"]
+
+  - name: Price Optimization
+    logo: /images/sections/projects/po.png
+    role: Contributor
+    timeline: "Mar 2021 - Feb 2022"
+    repo: https://github.com/kuta-ndze/PriceOptimization.git
+    #url: ""
+    summary: Provided with Restaurant Cafe data , leverage price elasticity with historical Cafe sales data to measure customers' responsiveness towards quantity demanded or supply due to price changes and find the optimal price to set for their items for maximum profit i.e striking a balance in low or high price for optimal profit.
+    tags: ["data science", "ml", "Retail"]
+
+  - name: Plotly Dash, SpaceX Launch
+    logo: /images/sections/projects/dd.png
+    role: Owner
+    timeline: "Oct 2021 - Nov 2021"
+    repo: https://spacex-dash-app.herokuapp.com/
+    summary: An interactive visual analytics for capstone project in real time for spaceX launch data. I have hosted this dash application on Heroku app platform. With this app you can get a visual idea on which site has largest successful launches, sites with highest/lowest launch success rate and with payload ranges. Which F9 Booster?
+    tags: ["data analysis", "dashboard"]
