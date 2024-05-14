@@ -1,0 +1,93 @@
+# section information
+section:
+  name: Accomplishments
+  id: accomplishments
+  enable: true
+  weight: 7
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your accomplishments
+accomplishments:
+  - name: IBM Data Science Professional Certificate
+    timeline: "Nov 2021 - Jan 2022"
+    organization:
+      name: Coursera
+      url: https://www.coursera.org
+    courseOverview:
+      " The course provides expert support, helps develop extensive skills and expertise, and has a focus on what’s
+      necessary to attain a competitive edge in the job market. It is extensive with 9 skill-building courses, and goes in-depth .
+      through the application of theory and practical applied learning techniques in ML, AI, Python, SQL, DS methodologies, IBM Watson
+      working with IBM db2 instances in IBM cloud and integrating all these with a Capstone project."
+    certificateURL: "https://www.coursera.org/account/accomplishments/specialization/certificate/6XQ7GDNDV3SD"
+
+  - name: Deep Learning Specialization
+    timeline: "Jan 2018 - Sept 2018"
+    organization:
+      name: Deeplearning.AI
+      url: https://www.deeplearning.ai/
+    courseOverview: "I learned to build and train NN architectures such as CNNs,
+      RNNs, LSTMs, Transformers, and how to make them better with strategies such as Dropout,
+      BatchNorm, Xavier/He initialization, and more. I have master theoretical concepts and their industry applications
+      using Python and TensorFlow and tackle real-world cases such as speech recognition, music synthesis, chatbots,
+      machine translation, natural language processing, and more."
+    certificateURL: "https://www.coursera.org/account/accomplishments/certificate/PHV3H9KFTS8J"
+
+  - name: Linux Foundation
+    timeline: "Jul 2021 - July 2021"
+    organization:
+      name: udemy
+      url: https://www.udemy.com
+    courseOverview: This course helps to understand the key concepts such as networking, storage, security, maintenance, logging and monitoring, application lifecycle, troubleshooting, API object primitives etc. It also help to grow the ability to establish basic use-cases for end users.
+    certificateURL: "https://www.udemy.com/certificate/UC-0065a28d-be1b-42f2-b5f9-a436d8731087/"
+
+  - name: SQL For Data Science
+    timeline: "Dec 2021 - Feb 2022"
+    organization:
+      name: Coursera
+      url: https://www.coursera.org
+    courseOverview: "Through four progressively more difficult SQL projects with data science applications, I covered topics in SQL basics, data wrangling, SQL analysis, AB testing, distributed computing using Apache Spark, Delta Lake and more."
+    certificateURL: "https://www.coursera.org/account/accomplishments/certificate/N8W2LX8JH69N"
+
+  - name: AWS Certified Machine Learning Specialty
+    timeline: "Feb 2022 - May 2022"
+    organization:
+      name: udemy
+      url: https://www.udemy.com
+    courseOverview: This course is a complete guide to master and pass the AWS certified machine learning specialty exam (MLS-C01). A deep dive in AWS SageMaker, machine learning and the nuances of feature engineering and model tuning. AWS EC2, S3 data lakes, AWS Glue and Glue ETL, AWS Kinesis etc.
+    certificateURL: "https://www.udemy.com/course/aws-machine-learning/"
+
+  - name: Analyzing & Visualizing Data with Microsoft Power BI
+    timeline: "Dec 2021 - Jan 2022"
+    organization:
+      name: Udemy
+      url: https://www.udemy.com
+    courseOverview:
+      Learn Geospatial Analysis, Data Analysis, and Data Visualization on public Tableau. I have worked on Multiple real-life projects during my course.
+      Design and deliver a professional-quality, end-to-end business intelligence solution, armed only with Power BI and a handful of raw csv files.
+    certificateURL: "https://www.udemy.com/certificate/UC-1e4fbc14-9ecb-461c-b444-a4d6d37eb339/"
+
+  - name: Analytics to Healthcare
+    timeline: "Jun 2022 - Jun 2022"
+    organization:
+      name: Udemy
+      url: https://www.udemy.com
+    courseOverview: A journey from simple data to machines that can help us accurately predict outcomes and formulate actionable insights.This class takes us through that journey from data ... to information ... to predicting and changing future care,  in a simple and understandable format.
+    certificateURL: "https://www.udemy.com/certificate/UC-de971b99-6b42-409d-a058-aad8e90c86ce/"
+
+  - name: ELK Stack
+    timeline: "Nov 2022 - Dec 2022"
+    organization:
+      name: LinkedIn
+      url: https://www.linkedin.com
+    courseOverview: The ELK Stack is a powerful set of tools for log analysis and data visualization, consisting of Elasticsearch, Logstash, and Kibana. I have acquired expertise in the ELK Stack through hands-on experience and training, and I am capable of leveraging these tools for various data analysis, data indexing  and visualization tasks.
+    certificateURL: "https://www.linkedin.com/learning/certificates/6bd91c95baf84b75f462b52962b44c697066fe1a9a64351359ec15a02b3302a4"
+
+  - name: Excel for Data Science
+    timeline: "Dec 2022 - Jan 2023"
+    organization:
+      name: LinkedIn
+      url: https://www.linkedin.com
+    courseOverview:  Advanced Excel skills through Projects that enable maximizes various data analysis, visualization, machine learning, cleaning and preprocessing. These skills have allowed me to work with large datasets and extract meaningful insights from them.
+    certificateURL: "https://www.linkedin.com/learning/certificates/bc7f3aee07890113a4a5e2d48bb56595bce54f743643ff8c1472e31776183304"
