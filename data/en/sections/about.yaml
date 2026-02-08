@@ -11,8 +11,8 @@ section:
 designation: Data Scientist
 # your company information
 company:
-  name: CitiusTech.
-  url: "https://www.citiustech.com/"
+  name: Mayo Clinic
+  url: "https://www.mayoclinic.org/"
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/Celdrick_s_Resume.pdf"

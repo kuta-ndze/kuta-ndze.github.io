@@ -8,97 +8,88 @@ section:
   # Can optionally hide the title in sections
   # hideTitle: true
 
-# Your experiences
+  # Your experiences
 experiences:
-  - company:
-      name: CitiusTech Healthcare Technology Private Limited.
-      url: "https://www.citiustech.com/"
-      location: Princeton
-      overview:
-        CitiusTech is a specialized provider of healthcare technology and business process services to healthcare technology companies, healthcare providers,
-        managed care organizations, health plans and disease management companies.
-    positions:
-      - designation: Data Scientist
-        start: Oct 2022
-        # end: Jan 2020
-        responsibilities:
-          - Data Extraction Google Bigquery, third party APIs PubMed, WOS, SNOMED.
-          - NLU and data processing need of client, Creating benchmark datasets for "Find An Expert" solution.
-          - Creating Biosentvec embeddings and data indexing into Elastic Search. Calculating Similarity scores with index data in ES.
-          - Created new covariates or markers per client requirements.
-          - Developed ML models Learning to Rank methods with pointwise, pairwise and Listwise over 31MB records trained in python.
-          
+- company:
+    name: Mayo Clinic
+    url: "https://www.mayoclinic.org/"
+    location: Princeton
+    overview: Mayo Clinic is a specialized provider of healthcare technology and business process services to healthcare technology companies, healthcare providers, managed care organizations, health plans and disease management companies.
+  positions:
+  - designation: Data Scientist
+    start: Oct 2022
+    # end: Jan 2020
+    responsibilities:
+    - Data Extraction Google Bigquery, third party APIs PubMed, WOS, SNOMED.
+    - NLU and data processing need of client, Creating benchmark datasets for "Find An Expert" solution.
+    - Creating Biosentvec embeddings and data indexing into Elastic Search. Calculating Similarity scores with index data in ES.
+    - Created new covariates or markers per client requirements.
+    - Developed ML models Learning to Rank methods with pointwise, pairwise and Listwise over 31MB records trained in python.
 
-  - company:
-      name: Elevated Technologies.
-      url: "https://elevated-tech.com/"
-      location: Houston
-      # company overview
-      overview:
-        Elevated Technologies providing Houston businesses with innovative IT support and technology solutions since 2006.
-        Providing solutions in managed IT, cloud computing, flat rate IT support, manage network security..
-    positions:
-      - designation: Data Scientist
-        start: Jun 2021
-        end: Sept 2022
-        # don't provide end date if you are currently working there. It will be replaced by "Present"
-        # end: Dec 2020
-        # give some points about what was your responsibilities at the company.
-        responsibilities:
-          - Extensive SQL on AWS Athena accessing and extracting data from GLUE ETL jobs.
-          - Data preprocessing.
-          - Design and develop ML models
-          - Churn predictions for designing and selling financial products, lending decisions and mortgage solutions.
+- company:
+    name: Elevated Technologies.
+    url: "https://elevated-tech.com/"
+    location: Houston
+    # company overview
+    overview: Elevated Technologies providing Houston businesses with innovative IT support and technology solutions since 2006. Providing solutions in managed IT, cloud computing, flat rate IT support, manage network security..
+  positions:
+  - designation: Data Scientist
+    start: Jun 2021
+    end: Sept 2022
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Extensive SQL on AWS Athena accessing and extracting data from GLUE ETL jobs.
+    - Data preprocessing.
+    - Design and develop ML models
+    - Churn predictions for designing and selling financial products, lending decisions and mortgage solutions.
+  # - designation: Junior Software Engineer
+  #   start: Nov 2017
+  #   end: Oct 2019
+  #   responsibilities:
+  #     - Implement and test xyz feature for abc tool.
+  #     - Support client for abc tool.
+  #     - Learn k,d,w technology for xyz.
 
-      # - designation: Junior Software Engineer
-      #   start: Nov 2017
-      #   end: Oct 2019
-      #   responsibilities:
-      #     - Implement and test xyz feature for abc tool.
-      #     - Support client for abc tool.
-      #     - Learn k,d,w technology for xyz.
+- company:
+    name: Optimum.
+    url: "https://optimumcs.com/"
+    location: Houston
+    overview: A trusted and certified Software Development and Consulting company, that delivers exceptional customer experiences and end-to-end software solutions that enable companies to create and transform applications, automate business processes, and increase operational visibility in line with their unique possibilities.
+  positions:
+  - designation: Data Scientist
+    start: Feb 2020
+    end: May 2021
+    responsibilities:
+    - Write lots of custom python functions for predictive maintenance modelling.
+    - Running deep learning models and data visualizations on client's dataset.
+    - Working with unstructured data to detect and localize flaws in steel.
 
-  - company:
-      name: Optimum.
-      url: "https://optimumcs.com/"
-      location: Houston
-      overview:
-        A trusted and certified Software Development and Consulting company, that delivers exceptional customer experiences and
-        end-to-end software solutions that enable companies to create and transform applications, automate business processes,
-        and increase operational visibility in line with their unique possibilities.
-    positions:
-      - designation: Data Scientist
-        start: Feb 2020
-        end: May 2021
-        responsibilities:
-          - Write lots of custom python functions for predictive maintenance modelling.
-          - Running deep learning models and data visualizations on client's dataset.
-          - Working with unstructured data to detect and localize flaws in steel.
+- company:
+    name: Panus Software.
+    url: "http://www.panus.cm/"
+    location: Buea
+    overview: Panus is the leading software development company in Silicon Mountain Buea. Providing consultancy and building systems to fit client needs.
+  positions:
+  - designation: Data Analyst
+    start: Nov 2016
+    end: Jun 2018
+    responsibilities:
+    - Pattern identification and customer segmentation in megabytes of data.
+    - Dashboards develop to analysis KPIs for company sales, revenue, profit.
+    - Sales forecasting.
 
-  - company:
-      name: Panus Software.
-      url: "http://www.panus.cm/"
-      location: Buea
-      overview: Panus is the leading software development company in Silicon Mountain Buea. Providing consultancy and building systems to fit client needs.
-    positions:
-      - designation: Data Analyst
-        start: Nov 2016
-        end: Jun 2018
-        responsibilities:
-          - Pattern identification and customer segmentation in megabytes of data.
-          - Dashboards develop to analysis KPIs for company sales, revenue, profit.
-          - Sales forecasting.
-
-  - company:
-      name: Lycée de Fongo Ndeng.
-      #url: "http://www.panus.cm/"
-      location: Dschang
-      overview: Leading government high school in the Western region of Cameroon known for her state of the art training of excellent senior highs in STEM.
-    positions:
-      - designation: Computer Science Teacher
-        start: July 2014
-        end: Oct 2016
-        responsibilities:
-          - Extensive delivery of lab sections.
-          - Design and implement lessons.
-          - Coordinated and managed a staff of 10 in the computer science department.
+- company:
+    name: Lycée de Fongo Ndeng.
+    #url: "http://www.panus.cm/"
+    location: Dschang
+    overview: Leading government high school in the Western region of Cameroon known for her state of the art training of excellent senior highs in STEM.
+  positions:
+  - designation: Computer Science Teacher
+    start: July 2014
+    end: Oct 2016
+    responsibilities:
+    - Extensive delivery of lab sections.
+    - Design and implement lessons.
+    - Coordinated and managed a staff of 10 in the computer science department.
