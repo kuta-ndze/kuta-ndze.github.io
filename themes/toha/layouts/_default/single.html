@@ -162,10 +162,33 @@
       {{ end }}
 
       <!-- Keep backward compatibility with old config.yaml -->
-      {{ if site.DisqusShortname }}
-        {{ partial "comments/disqus.html" (dict (slice "disqus" "shortName")  site.DisqusShortname) }}
+      {{/* robustly derive disqus shortname from multiple possible places */}}
+      {{ $disqus := or .Site.DisqusShortname .Site.Params.disqusShortname }}
+      {{ if not $disqus }}
+        {{ with .Site.Data }}
+          {{ with index . "site" }}
+            {{ $maybe := index . "DisqusShortname" | default "" }}
+            {{ if $maybe }}{{ $disqus = $maybe }}{{ end }}
+          {{ end }}
+        {{ end }}
       {{ end }}
 
+      {{ if $disqus }}
+        <div id="disqus_thread"></div>
+        <script>
+          var disqus_config = function () {
+            this.page.url = '{{ .Permalink }}';
+            this.page.identifier = '{{ .File.Path }}';
+          };
+          (function() {
+            var d = document, s = d.createElement('script');
+            s.src = 'https://{{ $disqus }}.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+          })();
+        </script>
+        <noscript>Please enable JavaScript to view the comments.</noscript>
+      {{ end }}
       </div>
     </div>
   </div>
