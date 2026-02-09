@@ -1,12 +1,6 @@
 <!-- Add Analytics if enabled in configuration -->
-{{- /* Safe Google Analytics partial: read ID from .Site.Params */ -}}
-{{- $ga := .Site.Params.googleAnalytics | default .Site.Params.google_analytics -}}
-{{- if $ga -}}
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ $ga }}"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', '{{ $ga }}');
-</script>
-{{- end -}}
+{{ with site.Config.Services.GoogleAnalytics.ID }}
+  {{ if hugo.IsProduction }}
+    {{ template "_internal/google_analytics.html" $ }}
+  {{ end }}
+{{ end }}
