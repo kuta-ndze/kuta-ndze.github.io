@@ -19,13 +19,8 @@ To run this project locally, follow these steps:
     ```
     docker run --rm -it -p 1313:1313 -v "${PWD}:/src" -w /src klakegg/hugo:ext server --bind=0.0.0.0 -D
     ```
-4. **Run the Hugo Server**:
-   Start the Hugo development server by running:
-   ```
-    hugo server
-    ```
-5. **Access the Local Site**:
+4. **Access the Local Site**:
    Open your web browser and navigate to `http://localhost:1313` to view the site locally.
-6. **Make Changes**:
+5. **Make Changes**:
    You can now make changes to the project files. The Hugo server will automatically reload the site to reflect your changes.
 
