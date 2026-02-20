@@ -64,8 +64,10 @@
       {{ with .Params.author }}
         {{ with .email }}<author>{{ . }}{{ with .name }} ({{ . }}){{ end }}</author>{{ end }}
         {{ with .name }}{{/* name-only provided; no email; not emitting author tag */}}{{ end }}
-      {{ else if $siteAuthorEmail }}
-        <author>{{ $siteAuthorEmail }}{{ with $siteAuthorName }} ({{ . }}){{ end }}</author>
+      {{ else }}
+        {{ if $siteAuthorEmail }}
+          <author>{{ $siteAuthorEmail }}{{ with $siteAuthorName }} ({{ . }}){{ end }}</author>
+        {{ end }}
       {{ end }}
       <guid>{{ .Permalink }}</guid>
       <description>{{ .Summary | html }}</description>
