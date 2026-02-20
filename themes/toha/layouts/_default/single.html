@@ -163,9 +163,9 @@
 
       <!-- Keep backward compatibility with old config.yaml -->
       {{/* robustly derive disqus shortname from multiple possible places */}}
-      {{ $disqus := or .Site.DisqusShortname .Site.Params.disqusShortname }}
+      {{ $disqus := or $.Site.DisqusShortname $.Site.Params.disqusShortname }}
       {{ if not $disqus }}
-        {{ with .Site.Data }}
+        {{ with $.Site.Data }}
           {{ with index . "site" }}
             {{ $maybe := index . "DisqusShortname" | default "" }}
             {{ if $maybe }}{{ $disqus = $maybe }}{{ end }}
