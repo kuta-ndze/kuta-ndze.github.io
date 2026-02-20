@@ -15,7 +15,7 @@ To run this project locally, follow these steps:
 3. **Install Hugo**:
     Make sure you have Hugo installed on your machine. You can download it from [Hugo's official website](https://gohugo.io/getting-started/installing/).
 
-    Run (Docker - No local install needed):
+    Run Powershell (Docker - No local install needed):
     ```
     docker run --rm -it -p 1313:1313 -v "${PWD}:/src" -w /src klakegg/hugo:ext server --bind=0.0.0.0 -D
     ```
