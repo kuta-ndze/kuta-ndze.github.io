@@ -18,14 +18,13 @@ skills:
     #url: "https://kubernetes.io/"
 
   - name: Agentic AI and LLMs
-    logo: "/images/sections/skills/agentic.png"
+    logo: "/images/sections/skills/knowledgegraph.png"
     summary: "I have experience working with agentic AI and LLMs, leveraging their capabilities to enhance various applications. I have utilized LLMs for natural language processing tasks, such as text generation, sentiment analysis, and language understanding. Additionally, I have explored the use of agentic AI in developing intelligent systems that can autonomously perform tasks and make decisions based on data and user interactions."
     #url: "https://kubernetes.io/"
 
-  - name: Data Analysis
-    logo: "/images/sections/skills/dataanalysis.png"
-    summary: "I am specialized in analyzing data, trends and recommendations clearly presented in reports or BI tools. Exploratory
-    data analysis, Geospatial analysis, and Time-series analysis"
+  - name: Ontology Driven Knowledge Graphs with Semantic Web
+    logo: "/images/sections/skills/knowledgegraph.png"
+    summary: "Building knowledge graphs using ontologies and semantic web technologies to represent and organize complex data relationships. I have experience in designing and implementing ontologies, creating RDF triples, and utilizing SPARQL for querying and extracting insights from knowledge graphs. This skill allows me to effectively manage and analyze large volumes of interconnected data, enabling better decision-making and knowledge discovery."
     #url: "https://kubernetes.io/"
 
   - name: Machine Learning
