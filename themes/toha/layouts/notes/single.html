@@ -13,7 +13,7 @@
 
 {{ define "sidebar" }}
   {{ $homePage:="#" }}
-  {{ if hugo.IsMultilingual }}
+  {{ if $.Site.IsMultiLingual }}
     {{ $homePage = (path.Join (cond ( eq .Language.Lang "en") "" .Language.Lang) .Type) }}
   {{ end }}
 
@@ -27,7 +27,7 @@
           <ul class="tree" id="tree">
             <li id="list-heading"><a href="{{ .Type | relLangURL }}" data-filter="all">{{ i18n .Type }}</a></li>
             <div class="subtree">
-                {{ partial "navigators/sidebar.html" (dict "menuName" "sidebar" "menuItems" site.Menus.sidebar "ctx" . "site" .Site) }}
+                {{ partial "navigators/sidebar.html" (dict "menuName" "sidebar" "menuItems" $.Site.Menus.sidebar "ctx" . "site" $.Site) }}
             </div>
           </ul>
         </div>
