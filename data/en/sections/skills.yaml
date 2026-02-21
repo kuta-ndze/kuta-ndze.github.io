@@ -14,11 +14,13 @@ skills:
   - name: Data Science
     logo: "/images/sections/skills/datascience.png"
     summary: "Make your data shine with predictive and quantitative models and machine learning techniques, for example
-    predicting customer attrition, forecasting sales, targeting the right customers etc."
+    predicting customer attrition, forecasting sales, targeting the right customers, Natural Language Processing and
+    optimizing marketing campaigns.I have experience in data preprocessing, feature engineering, model selection, and
+    evaluation to derive actionable insights from complex datasets."
     #url: "https://kubernetes.io/"
 
   - name: Agentic AI and LLMs
-    logo: "/images/sections/skills/knowledgegraph.png"
+    logo: "/images/sections/skills/datascience.png"
     summary: "I have experience working with agentic AI and LLMs, leveraging their capabilities to enhance various applications.
     I have utilized LLMs for natural language processing tasks, such as text generation, sentiment analysis, and language
     understanding. Additionally, I have explored the use of agentic AI in developing intelligent systems that can autonomously
@@ -26,7 +28,7 @@ skills:
     #url: "https://kubernetes.io/"
 
   - name: Ontology Driven Knowledge Graphs
-    logo: "/images/sections/skills/knowledgegraph.png"
+    logo: "/images/sections/skills/datascience.png"
     summary: "Building knowledge graphs using ontologies and semantic web technologies to represent and organize complex
     data relationships. I have experience in designing and implementing ontologies, creating RDF triples, and utilizing
     SPARQL for querying and extracting insights from knowledge graphs. This skill allows me to effectively manage and
